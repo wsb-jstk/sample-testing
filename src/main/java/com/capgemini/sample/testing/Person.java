@@ -5,7 +5,7 @@ import lombok.Value;
 @Value
 public class Person {
 
-	String firstName;
+    String firstName;
 
 	String lastName;
 

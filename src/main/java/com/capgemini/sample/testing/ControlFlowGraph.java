@@ -8,15 +8,15 @@ package com.capgemini.sample.testing;
  */
 public class ControlFlowGraph {
 
-	public int sumOfEvenElementSmallerThan(int number) {
-		int sum = 0;
-		int i = 0;
-		while (i < number) {
-			if (i % 2 == 0) {
-				sum += i++;
-			}
-		}
-		return sum;
-	}
+    public int sumOfEvenElementSmallerThan(int number) {
+        int sum = 0;
+        int i = 0;
+        while (i < number) {
+            if (i % 2 == 0) {
+                sum += i++;
+            }
+        }
+        return sum;
+    }
 
 }
